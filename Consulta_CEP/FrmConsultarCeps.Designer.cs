@@ -149,29 +149,38 @@
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(262, 25);
+            this.btnConsultar.BackgroundImage = global::Consulta_CEP.Properties.Resources.busca_cep;
+            this.btnConsultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnConsultar.Location = new System.Drawing.Point(314, 25);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(283, 69);
+            this.btnConsultar.Size = new System.Drawing.Size(231, 69);
             this.btnConsultar.TabIndex = 3;
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(262, 384);
+            this.btnLimpar.Image = global::Consulta_CEP.Properties.Resources.limpar;
+            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimpar.Location = new System.Drawing.Point(350, 384);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(120, 25);
+            this.btnLimpar.Size = new System.Drawing.Size(86, 25);
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(422, 384);
+            this.btnSair.Image = global::Consulta_CEP.Properties.Resources.sair;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSair.Location = new System.Drawing.Point(459, 384);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(123, 25);
+            this.btnSair.Size = new System.Drawing.Size(86, 25);
             this.btnSair.TabIndex = 10;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // FrmConsultarCeps
             // 
